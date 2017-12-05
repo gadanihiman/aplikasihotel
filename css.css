@@ -1,0 +1,510 @@
+@charset "utf-8";
+/* Gadani Himan Gurusinga - 4311401008 - dont copy, cause it's a cyber crime */
+
+* {
+padding:0px;
+margin:0px;
+  }
+.pict {
+	width:40px;
+	height:40px;
+}
+.a {
+	text-decoration:none;
+	color:#000;
+}
+
+.a:hover {
+	text-decoration:none;
+	color:#09C;
+}
+
+.t_cari {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:bold;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	width:100px;
+	height:33px;
+	color:#FFF;
+	background-color:#069;
+	border:#000;
+	cursor:pointer;
+	}
+
+.t_cari:hover {
+	transition:all 1s;
+	background-color:#036;
+}
+
+.table {
+	border: solid 1px #333333;
+}
+
+.t_submit {
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	width:150px;
+	height:25px;
+	color:#FFF;
+	background-color:#069;
+	border:#000;
+	cursor:pointer;
+	}
+
+.t_submit:hover {
+	transition:all 1s;
+	background-color:#036;
+	}
+
+.list {
+	width:98%;
+	color:#333;
+	background-color:#fff;
+	height:30px;
+	border-radius:4px;
+	border:2px solid #CCC;
+	cursor:pointer;
+}
+
+.t_field {
+	padding-left: 5px;
+	width:95%;
+	color:#333;
+	background-color:#fff;
+	border-radius:4px;
+	border:2px solid #CCC;
+	resize:none;
+	cursor:text;
+}
+
+.t_field:focus {
+	transition:all 1s;
+	border:2px solid #0CC;
+}
+
+
+.list:focus {
+	transition:all 1s;
+	border:2px solid #0CC;
+}
+
+p{text-align:justify};
+
+body {
+	background:#FFF;
+}
+
+li {
+	list-style:none;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}
+
+
+
+.form {
+	padding-left:6px;
+	width:95%;
+	height:30px;
+	border-radius:4px;
+	border:2px solid #CCC;
+}
+
+.form:focus {
+	transition:all 1s;
+	border:2px solid #0CC;
+}
+
+.alink {
+	display:inline-block;
+	width:20%;
+transition: all 0.3s;
+	text-decoration:none;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:2px;
+	height:17px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.alink:hover {
+box-shadow: 0 0 10px #222;
+border-bottom:solid #069 5px;
+transition: all 0.2s;
+display:inline-block;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.action {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+	display:block;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+	padding:5px 7px 5px 7px;
+	width:80px;
+	color:#FFF;
+	background-color:#069;
+	border:#000;
+	cursor:pointer;
+}
+
+.action:hover {
+	transition: all 1s;
+	background-color:#036;
+}
+
+.actionpasok {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
+	display:block;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+	padding:5px 7px 5px 7px;
+	width:50px;
+	color:#FFF;
+	background-color:#069;
+	border:#000;
+	cursor:pointer;
+}
+
+.actionpasok:hover {
+	transition: all 1s;
+	background-color:#036;
+}
+
+
+.action2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	display:block;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+	padding:5px 7px 5px 7px;
+	width:80px;
+	color:#FFF;
+	background-color:#069;
+	border:#000;
+	cursor:pointer;
+}
+
+.action2:hover {
+	transition: all 1s;
+	background-color:#036;
+}
+
+.action3 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:12px;
+	display:block;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	text-align:center;
+	padding:5px 7px 5px 7px;
+	width:150px;
+	color:#FFF;
+	background-color:#F90;
+	border:#000;
+	cursor:pointer;
+}
+
+.action3:hover {
+	transition: all 1s;
+	background-color:#F60;
+}
+
+/* css template by gadani himan gurusinga */
+
+#menu {
+	z-index:9999;
+	margin:auto;
+	position:fixed;
+	box-shadow: 0 0 10px #000;
+	background-color:#F8F8F8;
+	height:60px;
+	width:100%;
+}
+
+#logo {
+	margin-left:30px;
+	float:left;
+	width:auto;
+	padding-top:10px;
+	height:30px;
+	text-align:center;
+	font-family:Rockwell;
+	font-weight:bold;
+	font-size:16px;
+}
+
+#header_home {
+	background: center top url(picture/header.jpg);
+	padding-top:300px;
+	height:400px;
+box-shadow: 0 0 20px #000;
+}
+#header_news {
+	background: center top url(picture/header.jpg);
+	padding-top:300px;
+	height:400px;
+box-shadow: 0 0 20px #000;
+}
+
+#judul {
+	margin:auto;
+	text-align:center;
+	width:30%;
+	height:40px;
+	font-family:Rockwell;
+	font-size:36px;
+	font-weight:bold;
+	color:#099;
+	-webkit-box-shadow: 0 0 20px #000;
+-moz-box-shadow: 0 0 20px #000;
+box-shadow: 0 0 20px #000;
+}
+
+
+#menu_menu {
+	float:right;
+	width:40%;
+	padding-top:20px;
+	height:40px;
+	text-align:center;
+}
+
+.foot {
+	text-decoration:none;
+	color:#CCC;
+}
+
+
+
+#content {
+	padding-top:70px;
+	background-color:#FFF;
+	width:100%;
+	height:auto;
+	padding-bottom:100px;
+
+}
+
+
+#artikel {
+	text-align:center;
+	margin: auto;
+	width:90%;
+	max-width:1000px;
+	height:auto;
+	padding-top:40px;
+	padding-bottom:50px;
+	padding-left:40px;
+	padding-right:40px;
+box-shadow: 0 0 7px #000;
+font-size:16px;
+color:#333;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#alas_footer {
+box-shadow: 0 0 7px #000;
+	background:#1A1A1A;
+	height:70px;
+	width:100%;
+	padding-top:20px;
+}
+
+#footer {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	float:left;
+	font-size:12px;
+	margin:auto;
+	color:#CCC;
+	width:100%;
+	max-width:1400px;
+}
+
+/* end css template */
+/* CSS for Fixed Table */
+.fixed-th {
+	width: auto;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	table-layout: fixed;
+	border: 10px solid #fff;
+}
+	.fixed-th thead {
+		background-color: #333;
+		color:#fff;
+		display: block;
+	}
+	/* make it scrolled */
+	.fixed-th tbody {
+		display: block;
+	  	width: 100%;
+	}
+
+	/* end make it scrolled */
+
+			.fixed-th th,.fixed-th td{
+				vertical-align: top;
+				padding:10px 7px;
+				text-align: left;
+			}
+			.fixed-th th + th, .fixed-th td + td {
+				border-left:1px solid #ddd;
+			}
+			.fixed-th th:nth-child(1), .fixed-th td:nth-child(1) {
+				min-width:40px;
+			}
+			.fixed-th th:nth-child(2), .fixed-th td:nth-child(2) {
+				width:110px;
+			}
+			.fixed-th th:nth-child(3), .fixed-th td:nth-child(3) {
+				width:120px;
+			}
+			.fixed-th th:nth-child(4), .fixed-th td:nth-child(4) {
+				width:120px;
+			}
+			.fixed-th th:nth-child(5), .fixed-th td:nth-child(5) {
+				width:60px;
+			}
+			.fixed-th th:nth-child(6), .fixed-th td:nth-child(6) {
+				width:60px;
+			}
+			.fixed-th th:nth-child(7), .fixed-th td:nth-child(7) {
+				width:50px;
+			}
+
+
+/* End CSS for Fixed Table */
+
+/* CSS for Fixed 2 Table */
+.fixed2-th {
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	table-layout: fixed;
+	border:10px solid #fff;
+}
+	.fixed2-th thead {
+		background-color: #333;
+		color:#fff;
+		display: block;
+	}
+	/* make it scrolled */
+	.fixed2-th tbody {
+		display: block;
+	  	width: 100%;
+	}
+
+	/* end make it scrolled */
+
+			.fixed2-th th,.fixed2-th td{
+				vertical-align: top;
+				padding:10px 7px;
+				text-align: left;
+			}
+			.fixed2-th th + th, .fixed2-th td + td {
+				border-left:1px solid #ddd;
+			}
+			.fixed2-th th:nth-child(1), .fixed2-th td:nth-child(1) {
+				min-width:40px;
+			}
+			.fixed2-th th:nth-child(2), .fixed2-th td:nth-child(2) {
+				width:120px;
+			}
+			.fixed2-th th:nth-child(3), .fixed2-th td:nth-child(3) {
+				width:150px;
+			}
+			.fixed2-th th:nth-child(4), .fixed2-th td:nth-child(4) {
+				width:50px;
+			}
+			.fixed2-th th:nth-child(5), .fixed2-th td:nth-child(5) {
+				width:50px;
+			}
+			.fixed2-th th:nth-child(6), .fixed2-th td:nth-child(6) {
+				width:50px;
+			}
+			.fixed2-th th:nth-child(7), .fixed2-th td:nth-child(7) {
+				width:50px;
+			}
+			.fixed2-th th:nth-child(8), .fixed2-th td:nth-child(8) {
+				width:50px;
+			}
+
+
+/* End CSS for Fixed2 Table */
+
+/* CSS for Zebra Table in index.html */
+.zebra-table {
+	font-size:15px;
+	width: 80%;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	overflow: hidden;
+	border:10px solid #fff;
+}
+	.zebra-table th,.zebra-table td{
+		vertical-align: top;
+		padding:10px 7px;
+		margin:0;
+	}
+
+	.zebra-table th{
+		background:#000;
+		color:#FFF;
+	}
+		.zebra-table tbody tr:nth-child(odd) { /* Make table like zebra */
+			background:#fff;
+		}
+
+/* End CSS for Zebra Table in index.html */
+
+/* CSS for Zebra Table in index.html */
+.zebra2-table {
+	font-size:15px;
+	width: 50%;
+	border-collapse: collapse;
+	box-shadow: 0 2px 3px 1px #ddd;
+	overflow: hidden;
+	border:10px solid #fff;
+}
+	.zebra2-table th,.zebra2-table td{
+		vertical-align: top;
+		padding:10px 7px;
+		margin:0;
+	}
+
+	.zebra2-table th{
+		background:#000;
+		color:#FFF;
+	}
+		.zebra2-table tbody tr:nth-child(odd) { /* Make table like zebra */
+			background:#fff;
+		}
+
+/* End CSS for Zebra Table in index.html */
